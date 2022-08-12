@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts end -->
+    <!-- Normalize start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Normalize end -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo header__logo link" href="/" lang="en"
+          >Web<span class="logo logo--mode-black">Studio</span></a
+        >
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--crrt link" href="">Портфолио</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__list list">
+          <li class="header__item">
+            <a class="header__mail link" href="mailto:info@devstudio.com"
+              ><svg class="header__icon-ml" width="16" height="12">
+                <use href="./images/icons/symbol-defs.svg#hd-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header__item">
+            <a class="header__phone link" href="tel:+380961111111"
+              ><svg class="header__icon-smph" width="10" height="16">
+                <use href="./images/icons/symbol-defs.svg#hd-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main section-->
+    <main>
+      <!-- portfolio section-->
+      <section class="portfolio">
+        <!-- Логический подзаголовок СКРЫТ-->
+        <h1 class="visually-hidden">Портфолио</h1>
+        <!-- fiters part-->
+        <div class="container">
+          <ul class="filters-list container__filters-list">
+            <li class="filters-list__item list">
+              <button class="filters-list__btn" type="button">Все</button>
+            </li>
+            <li class="filters-list__item list">
+              <button class="filters-list__btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="filters-list__item list">
+              <button class="filters-list__btn" type="button">Приложения</button>
+            </li>
+            <li class="filters-list__item list">
+              <button class="filters-list__btn" type="button">Дизайн</button>
+            </li>
+            <li class="filters-list__item list">
+              <button class="filters-list__btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <!--categories part-->
+          <ul class="cats-list container__cats-list">
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-1.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle">Технокряк</h2>
+                  <p class="cats-list__descr">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-2.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="cats-list__descr">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-3.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle">Ресторан Seafood</h2>
+                  <p class="cats-list__descr">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-4.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle">Проект Prime</h2>
+                  <p class="cats-list__descr">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-5.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle">Проект Boxes</h2>
+                  <p class="cats-list__descr">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-6.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle" lang="en">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="cats-list__descr">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-7.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="cats-list__descr">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-8.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle">Проект LAB</h2>
+                  <p class="cats-list__descr">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="cats-list__item list">
+              <a class="cats-list__link link" href="">
+                <div class="cats-box cat-list__cats-box">
+                  <img
+                    class="cats-list__img"
+                    src="./images/portfolio/pf-box-9.jpg"
+                    alt=""
+                    width="370"
+                    height="290"
+                  />
+                  <div class="overlay cats-box__overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="cats-list__wrap">
+                  <h2 class="cats-list-subtitle cats-box__cats-list-subtitle" lang="en">
+                    Growing Business
+                  </h2>
+                  <p class="cats-list__descr">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <!-- footer Logo addres -->
+        <div class="logo-address footer__logo-address">
+          <a class="logo link footer__logo" href="/" lang="en"
+            >Web<span class="logo logo--mode-white">Studio</span></a
+          >
+          <address class="address footer__address">
+            <ul class="address__list list">
+              <li class="address__item">
+                <a href="" class="address-text address__address-text link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address__item">
+                <a class="address-mail address__address-mail link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address__item">
+                <a class="address-phone address__address-phone link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!-- footer social -->
+        <div class="social">
+          <h4 class="section-subtitle footer__section-subtitle">присоединяйтесь</h4>
+          <ul class="social-list footer__social-list list">
+            <li class="social-list__item">
+              <a
+                class="social-link footer__social-link link"
+                href=""
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="instagram"
+                ><svg class="social-list__icon social-list__icon--light" width="20" height="20">
+                  <use href="./images/icons/symbol-defs.svg#ftr-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="social-list__item">
+              <a
+                class="social-link footer__social-link link"
+                href=""
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="twitter"
+                ><svg class="social-list__icon social-list__icon--light" width="20" height="20">
+                  <use href="./images/icons/symbol-defs.svg#ftr-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="social-list__item">
+              <a
+                class="social-link footer__social-link link"
+                href=""
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="facebook"
+                ><svg class="social-list__icon social-list__icon--light" width="20" height="20">
+                  <use href="./images/icons/symbol-defs.svg#ftr-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="social-list__item">
+              <a
+                class="social-link footer__social-link link"
+                href=""
+                target="_blank"
+                rel="noopener no-referrer"
+                aria-label="linkedin"
+                ><svg class="social-list__icon social-list__icon--light" width="20" height="20">
+                  <use href="./images/icons/symbol-defs.svg#ftr-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- footer mailing -->
+        <div class="mailing footer__mailing">
+          <h4 class="section-subtitle footer__section-subtitle">Подпишитесь на рассылку</h4>
+          <form class="mailing-form">
+            <input class="mailing-form__mail" type="text" name="E-mail" placeholder="E-mail" />
+            <button class="mail-btn mailing-form__mail-btn" type="submit">
+              Подписаться
+              <svg width="24" height="24">
+                <use href="./images/icons/symbol-defs.svg#ftr-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
