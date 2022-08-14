@@ -1,9 +1,21 @@
 .affairs {
    @extend %section;
+   
+   display: none;
+//    @media screen and (min-width: 480px) {
+//        display: none;
+//     }     
+    // @media screen and (min-width: 768px) {
+    //     flex-basis: calc((100% - 30px)/ 2 );
+    //     height: 251px;
+    // }
 
-  display: flex;
-  padding-top: 0;
-
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        padding-top: 0;
+    } 
+//   display: flex;
+//   padding-top: 0; 
     &__section-title {
     margin-bottom: 50px;
     }

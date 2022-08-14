@@ -11,16 +11,24 @@
     }
 
     &__logo {
+        @media screen and (max-width: 767px) {
+        margin-right: 255px;
+    }    
+
     margin-right: 90px;
     }
 
     &__list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px; 
-    /* outline: 5px solid red; */
-    }
+        
+        @media screen and (max-width: 767px) {
+        display: none;
+        }    
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; 
+        }
 
     &__mail,
     &__phone {

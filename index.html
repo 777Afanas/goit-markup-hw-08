@@ -28,11 +28,16 @@
 
   <body>
     <!-- Header section -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header__container">
         <a class="logo header__logo link" href="/" lang="en"
           >Web<span class="logo logo--mode-black">Studio</span></a
         >
+        <button class="menu-btn" type="button">
+          <svg width="40" height="40">
+            <use href="./images/icons/symbol-defs.svg#hd-mob-menu"></use>
+          </svg>
+        </button>
         <nav class="nav">
           <ul class="nav__list list">
             <li class="nav__item">
@@ -63,7 +68,7 @@
           </li>
         </ul>
       </div>
-    </header> -->
+    </header>
     <!-- Main section-->
     <main>
       <!-- Hero section-->
@@ -132,7 +137,7 @@
         </div>
       </section>
       <!-- Affairs sektion-->
-      <!-- <section class="affairs">
+      <section class="affairs">
         <div class="container">
           <h2 class="section-title affairs__section-title">Чем мы занимаемся</h2>
           <ul class="affairs-list list">
@@ -174,7 +179,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- Team section-->
       <!-- <section class="team">
         <div class="container">
@@ -687,7 +692,46 @@
         </form>
       </div>
     </div>
-
+    <!-- Heder mobile menu -->
+    <div class="menu-overlay">
+      <div class="menu">
+        <ul class="mobile-list list">
+          <li class="mobile-list__item">
+            <a class="mobile-list__link mobile-list__link--current link" href="">Студия</a>
+          </li>
+          <li class="mobile-list__item">
+            <a class="mobile-list__link link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="mobile-list__item">
+            <a class="mobile-list__link link" href="">Контакты</a>
+          </li>
+        </ul>
+        <ul class="mobile-list list">
+          <li class="mobile-list__item">
+            <a class="mobile-list__phone link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-list__item">
+            <a class="mobile-list__mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-socials list">
+          <li class="mobile-socials-item">
+            <a href="" class="socials-link link">Instagram</a>
+          </li>
+          <li class="mobile-socials-item">
+            <a href="" class="socials-link link">Twitter</a>
+          </li>
+          <li class="mobile-socials-item">
+            <a href="" class="socials-link link">Facebook</a>
+          </li>
+          <li class="mobile-socials-item">
+            <a href="" class="socials-link link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
