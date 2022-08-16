@@ -2,7 +2,7 @@
     max-width: 250px;
     min-width: 200px;
     min-height: 50px;
-     font-family: inherit;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);    
@@ -24,15 +24,10 @@
     transition-delay: ; */
 }
 
-.mail-btn {     
-    // width: 100%;
-    // max-width: 200px;
-   width: 200px;
+.mail-btn {         
+    width: 200px;
     height: 50px;
-    // @media screen and (min-width: 1200px) {
-    //     width: 358px;
-    //     }
-    
+        
     font-weight: 700;
     font-size: 16px;
     line-height: colc(30 / 16);
