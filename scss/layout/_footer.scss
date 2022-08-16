@@ -3,18 +3,45 @@
     padding-bottom: 60px;
     background-color: var(--dark-bg-cl);
 
-    &__container {
-    display: flex;
-    align-items: baseline;
+    
+    &__container { 
+        @media screen and (max-width: 479px) {
+            display: block;
+            text-align: center; 
+        }
+
+        @media screen and (min-width: 480px) {
+            display: block;
+            text-align: center; 
+        }
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-around;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: baseline;
+        }
     }
 
     /* <!-- footer Logo-addres --> */
-    &__logo-address{
-    margin-right: 70px;
+    &__logo-address{ 
+        @media screen and (min-width: 480px) {
+            margin-bottom: 60px; 
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-right: 70px;
+        }         
     }
 
     &__logo{
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     
     &__address{
@@ -33,27 +60,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; 
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 60px;
+        } 
     }
 
     &__social-link {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     /* <!-- footer mailing --> */ 
     &__mailing {
-    display: block;
-    margin-left: 90px;
-    gap: 12px;
+        display: block;         
+        gap: 12px;
+       
     }
 
     &__section-subtitle {
     margin-bottom: 20px;
     color: #FFFFFF; 
-    }
-
+    } 
 }
 
 .address {
@@ -62,14 +92,7 @@
     &__item {
         margin-bottom: 9px;   
     }
-
-    // &__address-text {
-    //     margin-bottom: 9px;
-    // } 
-
-    // &__address-mail {
-    //     margin-bottom: 9px;
-    // }
+    
 }
 
 .address-text {
@@ -95,7 +118,6 @@
 }
 
 
-
 .address-text:hover,
 .address-text:focus, 
 .address-mail:hover,
@@ -104,6 +126,14 @@
 .address-phone:focus {
     color: var(--accent-cl);
 }
+
+// .social {
+//      @media screen and (min-width: 768px) {
+//             // display: inline;
+//             // width: 205px;
+//             margin-right: 89px;
+//         }  
+// }
 
 .social-link {
    width: 44px;
