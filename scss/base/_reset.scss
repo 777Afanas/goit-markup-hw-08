@@ -9,14 +9,13 @@ p {
 }
 
 img {
-    display: block;
-
+    display: block; 
     // max-width: 100%;
-    // width: 1005;
-    // height: auto;
+    width: 100%;
+    height: auto;
 
-    // object-fit: cover;
-    // object-position: center;
+    object-fit: cover;
+    object-position: center;
 }
 
 .link {

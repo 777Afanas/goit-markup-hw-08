@@ -3,8 +3,27 @@
     list-style: none;  
 
     &__item {
+
+        @media screen and (max-width: 479px) {
+            // 
+            width: 100%; 
+        }
+
+        @media screen and (min-width: 480px) {
+            // flex-basis: calc(100% - 60px); 
+            width: 100%;               
+        }
+
+        @media screen and (min-width: 768px) {
+           flex-basis: calc((100% - 30px) /2);               
+        } 
+
+         @media screen and (min-width: 1200px) {
+            flex-basis: calc((100% - 60px) / 3);           
+        } 
+
     /*  Set the width of the elements  */
-    flex-basis: calc((100% - 60px) / 3);      
+    // flex-basis: calc((100% - 60px) / 3);      
     }
 
     &__link {  

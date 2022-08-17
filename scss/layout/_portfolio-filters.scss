@@ -2,7 +2,32 @@
 @extend %section;
 }
 
-.filters-list__btn {
+  
+.filters-list { 
+    @media screen and (max-width: 479px) { 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: start;
+        padding: 0;
+        }
+
+    @media screen and (min-width: 480px) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: start;           
+        padding: 0;
+        }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;  
+        }
+}
+
+.filters-list__btn {     
     /* height: 38px; */
     display: inline-block;
     padding: 5px 21px;

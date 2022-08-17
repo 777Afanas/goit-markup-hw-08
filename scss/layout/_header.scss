@@ -8,11 +8,15 @@
     &__container {
     display: flex;
     align-items: center;
+    
+        @media screen and (max-width: 767px) {
+        justify-content: space-between;
+        }  
     }
 
     &__logo {
         @media screen and (max-width: 767px) {
-        margin-right: 255px;
+        margin-right: 0;
         }    
 
         margin-right: 90px;
@@ -29,12 +33,11 @@
         }  
 
         @media screen and (min-width: 1200px) { 
-        display: flex;
-        }
-
-        align-items: center;
-        justify-content: center;
-        gap: 30px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px; 
+        }        
     }
 
     &__mail,
