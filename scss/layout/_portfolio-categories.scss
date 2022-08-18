@@ -86,8 +86,30 @@
 }
 
 .overlay { 
-  width: 370px;
-  height: 290px; 
+  
+    @media screen and (max-width: 479px) {
+        max-width: 450px;
+        max-height: 290px; 
+        }
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        height: 290px;           
+   } 
+
+    @media screen and (min-width: 768px) {
+        width: 364px;
+        height: 294px;          
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 370px;
+        // height: 294px;          
+    }
+  
+    // width: 370px;
+    // height: 290px;  
+
   padding: 63px 24px;
   background: rgba(33, 150, 243, 0.9); 
 
