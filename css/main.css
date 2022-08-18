@@ -1657,9 +1657,6 @@ img {
   padding: 0;
   list-style: none;
 }
-.cats-list__item {
-  /*  Set the width of the elements  */
-}
 @media screen and (max-width: 479px) {
   .cats-list__item {
     width: 100%;
